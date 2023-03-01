@@ -1,0 +1,94 @@
+body{
+  background-image: url('./images/bg5.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.App {
+  font-family: sans-serif;
+  text-align: center;
+  padding: 20px;
+}
+#theme{
+  float: right;
+}
+
+.App>h1{
+  color:#ff1744 ;
+}
+h1 {
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+.task-list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 20px;
+  color: rgb(255, 255, 255);
+  font-weight: 600;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.task {
+  display: flex;
+  align-items: center;
+  width: 400px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+.task-text {
+  flex: 1;
+  font-size: 24px;
+}
+
+.delete-button {
+  background-color: #ff5252;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 5px 10px;
+  margin-left: 10px;
+  cursor: pointer;
+  font-size: 18px;
+}
+
+.delete-button:hover {
+  background-color: #ff1744;
+}
+
+.add-task {
+  display: flex;
+  align-items: center;
+}
+
+.add-task input {
+  flex: 1;
+  padding: 10px;
+  font-size: 24px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-right: 10px;
+}
+
+.add-task button {
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 5px 10px;
+  cursor: pointer;
+  font-size: 18px;
+}
+
+.add-task button:hover {
+  background-color: #2e7d32;
+}
+
+#theme{
+  float: right;
+}
