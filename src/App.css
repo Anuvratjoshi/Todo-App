@@ -57,6 +57,41 @@ h1 {
   font-size: 18px;
 }
 
+.edit-button{
+  background-color: rgb(87, 175, 210);
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 5px 10px;
+  margin-left: 10px;
+  cursor: pointer;
+  font-size: 18px;
+}
+.save-button{
+  background-color: rgb(87, 175, 210);
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 5px 10px;
+  margin-left: 10px;
+  cursor: pointer;
+  font-size: 18px;
+}
+.cancel-button{
+  background-color: #ff5252;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 5px 10px;
+  margin-left: 10px;
+  cursor: pointer;
+  font-size: 18px;
+}
+.edit-box{
+  font-size: 24px;
+  width: 92%;
+}
+
 .delete-button:hover {
   background-color: #ff1744;
 }
